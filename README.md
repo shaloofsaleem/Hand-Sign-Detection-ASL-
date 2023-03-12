@@ -5,7 +5,7 @@
 ## Easy Hand Sign Detection | American Sign Language ASL | Computer Vision
 <br>
 <p align='center'>
-<img src="https://github.com/Jauharmuhammed/README-Template/blob/main/assets/Mockup-website.png" width='70%' >
+<img src="https://www.ijraset.com/images/text_version_uploads/imag%201_4937.png" width='70%' >
 </p>
 <br>
 
@@ -85,7 +85,16 @@ Create a test.py to test
 ```
 python manage.py createsuperuser
 ```
+### Import library 
+This Library FOR Test the dataset 
+```
+import cv2
+from cvzone.HandTrackingModule import HandDetector
+import numpy as np
+import math
+from  cvzone.ClassificationModule import Classifier
 
+```
 Now you can run the project with this command
 
 ```
